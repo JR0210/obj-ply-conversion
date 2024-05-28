@@ -22,6 +22,10 @@ def main():
     input_directory = './Meshes'
     output_directory = './Meshes/Final'
 
+    if not os.path.exists(input_directory):
+        print(f"Input directory {input_directory} does not exist")
+        return
+
     # Ensure the output directory exists
     os.makedirs(output_directory, exist_ok=True)
 
