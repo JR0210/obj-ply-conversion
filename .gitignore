@@ -1,0 +1,4 @@
+Meshes/*
+!Meshes/Final/
+Meshes/Final/*
+venv/*
